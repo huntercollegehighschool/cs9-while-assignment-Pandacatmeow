@@ -15,8 +15,8 @@ num = int(input("Enter a number: "))
 numbertosquare = 1
 numsquares = 0
 while numbertosquare ** 2 <= num:
-  print("Number of squares less than or equal to", str(num)+':', numsquares)
   numsquares = numsquares + 1
+  numbertosquare = numbertosquare + 1
 
-else: (print("That's not a number. "))
+print("Number of squares less than or equal to", str(num)+':', numsquares)
     
